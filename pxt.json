@@ -1,6 +1,6 @@
 {
     "name": "colorbit",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "51bit ColorBit",
     "license": "MIT",
     "dependencies": {
@@ -11,7 +11,8 @@
         "README.md",
         "main.ts",
         "coloricons.jres",
-        "_locales/zh/colorbit-strings.json"
+        "_locales/zh/colorbit-strings.json",
+        "_locales/de/colorbit-strings.json"    
     ],
     "public": true
 }
