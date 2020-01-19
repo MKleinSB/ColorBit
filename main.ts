@@ -192,103 +192,103 @@ enum BitColorMode {
 //% weight=5 color=#2699BF icon="\uf110"
 namespace colorbit {
     let FONTS = [
-        [0x0,0x0],       //32: space
-        [0x4210,0x400],  //33: !
-        [0x5280,0x0],    //34: "
-        [0x57d5,0xf500], //35: #
-        [0x765d,0x3700], //36: $
-        [0xcc88,0x9980], //37: %
-        [0x6499,0x2680], //38: &
-        [0x4200,0x0],    //39: '
-        [0x2210,0x8200], //40: (
-        [0x4108,0x4400], //41: )
-        [0x288,0xa000],  //42: *
-        [0x11c,0x4000],  //43: +
-        [0x0,0x4400],    //44: ,
-        [0x1c,0x0],      //45: -
-        [0x0,0x8000],    //46: .
-        [0x888,0x8800],  //47: /
-        [0x64a5,0x2600], //48: 0
-        [0x2308,0x4700], //49: 1
-        [0xe099,0xf00],  //50: 2
-        [0xf089,0x2600], //51: 3
-        [0x32a5,0xf100], //52: 4
-        [0xfc3c,0x1f00], //53: 5
-        [0x111d,0x1700], //54: 6
-        [0xf888,0x8800], //55: 7
-        [0x745d,0x1700], //56: 8
-        [0x745c,0x4400], //57: 9
-        [0x200,0x8000],  //58: :
-        [0x100,0x4400],  //59: ;
-        [0x1110,0x4100], //60: <
-        [0x380,0xe000],  //61: =
-        [0x4104,0x4400], //62: >
-        [0x744c,0x200],  //63: ?
-        [0x746b,0x3600], //64: @
-        [0x64bd,0x2900], //65: A
-        [0xe4b9,0x2e00], //66: B
-        [0x7421,0x700],  //67: C
-        [0xe4a5,0x2e00], //68: D
-        [0xf439,0xf00],  //69: E
-        [0xf439,0x800],  //70: F
-        [0x7427,0x1700], //71: G
-        [0x94bd,0x2900], //72: H
-        [0xe210,0x8e00], //73: I
-        [0xf885,0x2600], //74: J
-        [0x9531,0x4900], //75: K
-        [0x8421,0xf00],  //76: L
-        [0x8eeb,0x1880], //77: M
-        [0x8e6b,0x3880], //78: N
-        [0x64a5,0x2600], //79: O
-        [0xe4b9,0x800],  //80: P
-        [0x64a4,0xc300], //81: Q
-        [0xe4b9,0x2880], //82: R
-        [0x7418,0x2e00], //83: S
-        [0xf908,0x4200], //84: T
-        [0x94a5,0x2600], //85: U
-        [0x8c62,0xa200], //86: V
-        [0x8c6b,0xb880], //87: W
-        [0x9499,0x2900], //88: X
-        [0x8a88,0x4200], //89: Y
-        [0xf111,0xf00],  //90: Z
-        [0x7210,0x8700], //91: [
-        [0x8208,0x2080], //92: \
-        [0x7084,0x2700], //93: ]
-        [0x2280,0x0],    //94: ^
-        [0x0,0xf80],     //95: _
-        [0x4100,0x0],    //96: `
-        [0x3a5,0x2780],  //97: a
-        [0x8439,0x2e00], //98: b
-        [0x3a1,0x700],   //99: c
-        [0x109d,0x2700], //100: d
-        [0x64b9,0x700],  //101: e
-        [0x3238,0x8400], //102: f
-        [0x749c,0x2600], //103: g
-        [0x8439,0x2900], //104: h
-        [0x4010,0x8400], //105: i
-        [0x1004,0x2600], //106: j
-        [0x8531,0x4900], //107: k
-        [0x4210,0x8300], //108: l
-        [0x6eb,0x1880],  //109: m
-        [0x725,0x2900],  //110: n
-        [0x325,0x2600],  //111: o
-        [0x725,0xc800],  //112: p
-        [0x3a4,0xe100],  //113: q
-        [0x5b1,0x800],   //114: r
-        [0x190,0x4c00],  //115: s
-        [0x423c,0x8380], //116: t
-        [0x4a5,0x2780],  //117: u
-        [0x462,0xa200],  //118: v
-        [0x463,0x5d80],  //119: w
-        [0x498,0xc900],  //120: x
-        [0x454,0x4c00],  //121: y
-        [0x788,0x8f00],  //122: z
-        [0x3118,0x4300], //123: {
-        [0x4210,0x8400], //124: |
-        [0xc218,0x8c00], //125: }
-        [0x18,0x3000]    //126: ~
+        [0x0, 0x0],       //32: space
+        [0x4210, 0x400],  //33: !
+        [0x5280, 0x0],    //34: "
+        [0x57d5, 0xf500], //35: #
+        [0x765d, 0x3700], //36: $
+        [0xcc88, 0x9980], //37: %
+        [0x6499, 0x2680], //38: &
+        [0x4200, 0x0],    //39: '
+        [0x2210, 0x8200], //40: (
+        [0x4108, 0x4400], //41: )
+        [0x288, 0xa000],  //42: *
+        [0x11c, 0x4000],  //43: +
+        [0x0, 0x4400],    //44: ,
+        [0x1c, 0x0],      //45: -
+        [0x0, 0x8000],    //46: .
+        [0x888, 0x8800],  //47: /
+        [0x64a5, 0x2600], //48: 0
+        [0x2308, 0x4700], //49: 1
+        [0xe099, 0xf00],  //50: 2
+        [0xf089, 0x2600], //51: 3
+        [0x32a5, 0xf100], //52: 4
+        [0xfc3c, 0x1f00], //53: 5
+        [0x111d, 0x1700], //54: 6
+        [0xf888, 0x8800], //55: 7
+        [0x745d, 0x1700], //56: 8
+        [0x745c, 0x4400], //57: 9
+        [0x200, 0x8000],  //58: :
+        [0x100, 0x4400],  //59: ;
+        [0x1110, 0x4100], //60: <
+        [0x380, 0xe000],  //61: =
+        [0x4104, 0x4400], //62: >
+        [0x744c, 0x200],  //63: ?
+        [0x746b, 0x3600], //64: @
+        [0x64bd, 0x2900], //65: A
+        [0xe4b9, 0x2e00], //66: B
+        [0x7421, 0x700],  //67: C
+        [0xe4a5, 0x2e00], //68: D
+        [0xf439, 0xf00],  //69: E
+        [0xf439, 0x800],  //70: F
+        [0x7427, 0x1700], //71: G
+        [0x94bd, 0x2900], //72: H
+        [0xe210, 0x8e00], //73: I
+        [0xf885, 0x2600], //74: J
+        [0x9531, 0x4900], //75: K
+        [0x8421, 0xf00],  //76: L
+        [0x8eeb, 0x1880], //77: M
+        [0x8e6b, 0x3880], //78: N
+        [0x64a5, 0x2600], //79: O
+        [0xe4b9, 0x800],  //80: P
+        [0x64a4, 0xc300], //81: Q
+        [0xe4b9, 0x2880], //82: R
+        [0x7418, 0x2e00], //83: S
+        [0xf908, 0x4200], //84: T
+        [0x94a5, 0x2600], //85: U
+        [0x8c62, 0xa200], //86: V
+        [0x8c6b, 0xb880], //87: W
+        [0x9499, 0x2900], //88: X
+        [0x8a88, 0x4200], //89: Y
+        [0xf111, 0xf00],  //90: Z
+        [0x7210, 0x8700], //91: [
+        [0x8208, 0x2080], //92: \
+        [0x7084, 0x2700], //93: ]
+        [0x2280, 0x0],    //94: ^
+        [0x0, 0xf80],     //95: _
+        [0x4100, 0x0],    //96: `
+        [0x3a5, 0x2780],  //97: a
+        [0x8439, 0x2e00], //98: b
+        [0x3a1, 0x700],   //99: c
+        [0x109d, 0x2700], //100: d
+        [0x64b9, 0x700],  //101: e
+        [0x3238, 0x8400], //102: f
+        [0x749c, 0x2600], //103: g
+        [0x8439, 0x2900], //104: h
+        [0x4010, 0x8400], //105: i
+        [0x1004, 0x2600], //106: j
+        [0x8531, 0x4900], //107: k
+        [0x4210, 0x8300], //108: l
+        [0x6eb, 0x1880],  //109: m
+        [0x725, 0x2900],  //110: n
+        [0x325, 0x2600],  //111: o
+        [0x725, 0xc800],  //112: p
+        [0x3a4, 0xe100],  //113: q
+        [0x5b1, 0x800],   //114: r
+        [0x190, 0x4c00],  //115: s
+        [0x423c, 0x8380], //116: t
+        [0x4a5, 0x2780],  //117: u
+        [0x462, 0xa200],  //118: v
+        [0x463, 0x5d80],  //119: w
+        [0x498, 0xc900],  //120: x
+        [0x454, 0x4c00],  //121: y
+        [0x788, 0x8f00],  //122: z
+        [0x3118, 0x4300], //123: {
+        [0x4210, 0x8400], //124: |
+        [0xc218, 0x8c00], //125: }
+        [0x18, 0x3000]    //126: ~
     ];
-    
+
     /**
      * A NeoPixel strip
      */
@@ -308,7 +308,7 @@ namespace colorbit {
          * Shows all LEDs to a given color (range 0-255 for r, g, b). 
          * @param rgb RGB color of the LED
          */
-        //% blockId="colorbit_set_strip_color" block="%colorbit_51bit|show color %rgb=colorbit_colors" 
+        //% blockId="colorbit_set_strip_color" block="%colorbit|show color %rgb=colorbit_colors" 
         //% weight=85 blockGap=8
         //% parts="colorbit"
         showColor(rgb: number) {
@@ -316,38 +316,38 @@ namespace colorbit {
             this.setAllRGB(rgb);
             this.show();
         }
-        
+
         nextNum(): number {
-            if(this.lastcolor==BitColors.Red)
-                this.lastcolor=BitColors.Orange;
-            else if(this.lastcolor==BitColors.Orange)
-                this.lastcolor=BitColors.Yellow;
-            else if(this.lastcolor==BitColors.Yellow)
-                this.lastcolor=BitColors.Green;
-            else if(this.lastcolor==BitColors.Green)
-                this.lastcolor=BitColors.Blue;
-            else if(this.lastcolor==BitColors.Blue)
-                this.lastcolor=BitColors.Indigo;
-            else if(this.lastcolor==BitColors.Indigo)
-                this.lastcolor=BitColors.Violet;
-            else if(this.lastcolor==BitColors.Violet)
-                this.lastcolor=BitColors.Purple;
-            else if(this.lastcolor==BitColors.Purple)
-                this.lastcolor=BitColors.White;
-            else if(this.lastcolor==BitColors.White)
-                this.lastcolor=BitColors.Red;
+            if (this.lastcolor == BitColors.Red)
+                this.lastcolor = BitColors.Orange;
+            else if (this.lastcolor == BitColors.Orange)
+                this.lastcolor = BitColors.Yellow;
+            else if (this.lastcolor == BitColors.Yellow)
+                this.lastcolor = BitColors.Green;
+            else if (this.lastcolor == BitColors.Green)
+                this.lastcolor = BitColors.Blue;
+            else if (this.lastcolor == BitColors.Blue)
+                this.lastcolor = BitColors.Indigo;
+            else if (this.lastcolor == BitColors.Indigo)
+                this.lastcolor = BitColors.Violet;
+            else if (this.lastcolor == BitColors.Violet)
+                this.lastcolor = BitColors.Purple;
+            else if (this.lastcolor == BitColors.Purple)
+                this.lastcolor = BitColors.White;
+            else if (this.lastcolor == BitColors.White)
+                this.lastcolor = BitColors.Red;
             return this.lastcolor;
         }
-        
+
         /**
          * Set multiple color. 
          * @param yes is multiple color for each light?
          */
-        //% blockId="colorbit_set_multi_color" block="%colorbit_51bit|Set each light with multiple color: %yes" 
+        //% blockId="colorbit_set_multi_color" block="%colorbit|Set each light with multiple color: %yes" 
         //% weight=12 blockGap=8
         //% parts="colorbit"
         setMultiColor(yes: boolean) {
-            this.ismulticolor=yes;
+            this.ismulticolor = yes;
         }
 
         fn_HextoDec(hex_num: string): number {
@@ -363,7 +363,7 @@ namespace colorbit {
             }
             return dec_num;
         }
-        
+
         /**
          * Show ColorBit Icon with a given color (range 0-255 for r, g, b). 
          * @param input LED ColorIcon
@@ -379,57 +379,57 @@ namespace colorbit {
         //% myicon.fieldOptions.maxRows=5
         showColorIcon(myicon: ColorIcon, rgb: number): void {
             let str: string = "";
-            if(myicon==0) str="51bitpasswd:0x23be,0x4200";     //ChristmasTree
-            else if(myicon==1) str="51bitpasswd:0x57fe,0xe200";//Heart
-            else if(myicon==2) str="51bitpasswd:0x029c,0x4000";//SmallHeart
-            else if(myicon==3) str="51bitpasswd:0x0045,0x4400";//Yes
-            else if(myicon==4) str="51bitpasswd:0x8a88,0xa880";//No
-            else if(myicon==5) str="51bitpasswd:0x0281,0x1700";//Happy
-            else if(myicon==6) str="51bitpasswd:0x0280,0xe880";//Sad
-            else if(myicon==7) str="51bitpasswd:0x0280,0xaa80";//Confused
-            else if(myicon==8) str="51bitpasswd:0x8a81,0xfa80";//Angry
-            else if(myicon==9) str="51bitpasswd:0x06c0,0xe000";//Asleep
-            else if(myicon==10) str="51bitpasswd:0x5008,0xa200";//Surprised
-            else if(myicon==11) str="51bitpasswd:0x883e,0x3180";//Silly
-            else if(myicon==12) str="51bitpasswd:0xfec0,0xa700";//Fabulous
-            else if(myicon==13) str="51bitpasswd:0xd804,0x4400";//Meh
-            else if(myicon==14) str="51bitpasswd:0xdfdc,0xe700";//TShirt
-            else if(myicon==15) str="51bitpasswd:0x18ff,0xf500";//Rollerskate
-            else if(myicon==16) str="51bitpasswd:0x671e,0xe000";//Duck
-            else if(myicon==17) str="51bitpasswd:0x23be,0xe500";//House
-            else if(myicon==18) str="51bitpasswd:0x03be,0xa000";//Tortoise
-            else if(myicon==19) str="51bitpasswd:0x03be,0xa000";//Butterfly
-            else if(myicon==20) str="51bitpasswd:0x27c8,0xa880";//StickFigure
-            else if(myicon==21) str="51bitpasswd:0x757f,0xfa80";//Ghost
-            else if(myicon==22) str="51bitpasswd:0x2108,0xe200";//Sword
-            else if(myicon==23) str="51bitpasswd:0xc210,0xe500";//Giraffe
-            else if(myicon==24) str="51bitpasswd:0x757e,0xe700";//Skull
-            else if(myicon==25) str="51bitpasswd:0x77c9,0x4e00";//Umbrella
-            else if(myicon==26) str="51bitpasswd:0xc6d4,0xe000";//Snake
-            else if(myicon==27) str="51bitpasswd:0xa53d,0xaf00";//Rabbit
-            else if(myicon==28) str="51bitpasswd:0x8c7e,0xe200";//Cow
-            else if(myicon==29) str="51bitpasswd:0x2109,0xce00";//QuarterNote
-            else if(myicon==30) str="51bitpasswd:0x218b,0xce00";//EigthNote
-            else if(myicon==31) str="51bitpasswd:0xad7e,0x4200";//Pitchfork
-            else if(myicon==32) str="51bitpasswd:0x23b6,0xe200";//Target
-            else if(myicon==33) str="51bitpasswd:0x0115,0xf000";//Triangle
-            else if(myicon==34) str="51bitpasswd:0x8629,0x2f80";//LeftTriangle
-            else if(myicon==35) str="51bitpasswd:0x5555,0x5500";//Chessboard
-            else if(myicon==36) str="51bitpasswd:0x22a2,0xa200";//Diamond
-            else if(myicon==37) str="51bitpasswd:0x0114,0x4000";//SmallDiamond
-            else if(myicon==38) str="51bitpasswd:0xfc63,0x1f80";//Square
-            else if(myicon==39) str="51bitpasswd:0x0394,0xe000";//SmallSquare
-            else if(myicon==40) str="51bitpasswd:0xce89,0xac80";//Scissors
-            else if(myicon==41) str="51bitpasswd:0xffff,0xff80";//FillFull
-            else if(myicon==42) str="51bitpasswd:0x77ff,0xf700";//FillCircle
-            else if(myicon==43) str="51bitpasswd:0x7463,0x1700";//Circle
-            else if(myicon==44) str="51bitpasswd:0x23aa,0x4200";//Up
-            else if(myicon==45) str="51bitpasswd:0x212a,0xe200";//Down
-            else if(myicon==46) str="51bitpasswd:0x223e,0x8200";//Left
-            else if(myicon==47) str="51bitpasswd:0x20be,0x2200";//Right
-            this.showStringColor(str,rgb);
+            if (myicon == 0) str = "51bitpasswd:0x23be,0x4200";     //ChristmasTree
+            else if (myicon == 1) str = "51bitpasswd:0x57fe,0xe200";//Heart
+            else if (myicon == 2) str = "51bitpasswd:0x029c,0x4000";//SmallHeart
+            else if (myicon == 3) str = "51bitpasswd:0x0045,0x4400";//Yes
+            else if (myicon == 4) str = "51bitpasswd:0x8a88,0xa880";//No
+            else if (myicon == 5) str = "51bitpasswd:0x0281,0x1700";//Happy
+            else if (myicon == 6) str = "51bitpasswd:0x0280,0xe880";//Sad
+            else if (myicon == 7) str = "51bitpasswd:0x0280,0xaa80";//Confused
+            else if (myicon == 8) str = "51bitpasswd:0x8a81,0xfa80";//Angry
+            else if (myicon == 9) str = "51bitpasswd:0x06c0,0xe000";//Asleep
+            else if (myicon == 10) str = "51bitpasswd:0x5008,0xa200";//Surprised
+            else if (myicon == 11) str = "51bitpasswd:0x883e,0x3180";//Silly
+            else if (myicon == 12) str = "51bitpasswd:0xfec0,0xa700";//Fabulous
+            else if (myicon == 13) str = "51bitpasswd:0xd804,0x4400";//Meh
+            else if (myicon == 14) str = "51bitpasswd:0xdfdc,0xe700";//TShirt
+            else if (myicon == 15) str = "51bitpasswd:0x18ff,0xf500";//Rollerskate
+            else if (myicon == 16) str = "51bitpasswd:0x671e,0xe000";//Duck
+            else if (myicon == 17) str = "51bitpasswd:0x23be,0xe500";//House
+            else if (myicon == 18) str = "51bitpasswd:0x03be,0xa000";//Tortoise
+            else if (myicon == 19) str = "51bitpasswd:0x03be,0xa000";//Butterfly
+            else if (myicon == 20) str = "51bitpasswd:0x27c8,0xa880";//StickFigure
+            else if (myicon == 21) str = "51bitpasswd:0x757f,0xfa80";//Ghost
+            else if (myicon == 22) str = "51bitpasswd:0x2108,0xe200";//Sword
+            else if (myicon == 23) str = "51bitpasswd:0xc210,0xe500";//Giraffe
+            else if (myicon == 24) str = "51bitpasswd:0x757e,0xe700";//Skull
+            else if (myicon == 25) str = "51bitpasswd:0x77c9,0x4e00";//Umbrella
+            else if (myicon == 26) str = "51bitpasswd:0xc6d4,0xe000";//Snake
+            else if (myicon == 27) str = "51bitpasswd:0xa53d,0xaf00";//Rabbit
+            else if (myicon == 28) str = "51bitpasswd:0x8c7e,0xe200";//Cow
+            else if (myicon == 29) str = "51bitpasswd:0x2109,0xce00";//QuarterNote
+            else if (myicon == 30) str = "51bitpasswd:0x218b,0xce00";//EigthNote
+            else if (myicon == 31) str = "51bitpasswd:0xad7e,0x4200";//Pitchfork
+            else if (myicon == 32) str = "51bitpasswd:0x23b6,0xe200";//Target
+            else if (myicon == 33) str = "51bitpasswd:0x0115,0xf000";//Triangle
+            else if (myicon == 34) str = "51bitpasswd:0x8629,0x2f80";//LeftTriangle
+            else if (myicon == 35) str = "51bitpasswd:0x5555,0x5500";//Chessboard
+            else if (myicon == 36) str = "51bitpasswd:0x22a2,0xa200";//Diamond
+            else if (myicon == 37) str = "51bitpasswd:0x0114,0x4000";//SmallDiamond
+            else if (myicon == 38) str = "51bitpasswd:0xfc63,0x1f80";//Square
+            else if (myicon == 39) str = "51bitpasswd:0x0394,0xe000";//SmallSquare
+            else if (myicon == 40) str = "51bitpasswd:0xce89,0xac80";//Scissors
+            else if (myicon == 41) str = "51bitpasswd:0xffff,0xff80";//FillFull
+            else if (myicon == 42) str = "51bitpasswd:0x77ff,0xf700";//FillCircle
+            else if (myicon == 43) str = "51bitpasswd:0x7463,0x1700";//Circle
+            else if (myicon == 44) str = "51bitpasswd:0x23aa,0x4200";//Up
+            else if (myicon == 45) str = "51bitpasswd:0x212a,0xe200";//Down
+            else if (myicon == 46) str = "51bitpasswd:0x223e,0x8200";//Left
+            else if (myicon == 47) str = "51bitpasswd:0x20be,0x2200";//Right
+            this.showStringColor(str, rgb);
         }
-    
+
         /**
          * Show ColorBit string with a given color (range 0-255 for r, g, b). 
          * @param input LED string showing
@@ -440,67 +440,60 @@ namespace colorbit {
         //% weight=100
         //% parts="colorbit"
         showStringColor(input: string, rgb: number): void {
-            if(input.indexOf("51bitpasswd:",0)===0) 
-            {
+            if (input.indexOf("51bitpasswd:", 0) === 0) {
                 //ChristmasTree: "51bitpasswd:0x23be:0x4200"
-                let pixeloffset1=this.fn_HextoDec(input.substr(12, 6));
-                let pixeloffset2=this.fn_HextoDec(input.substr(19, 6));
+                let pixeloffset1 = this.fn_HextoDec(input.substr(12, 6));
+                let pixeloffset2 = this.fn_HextoDec(input.substr(19, 6));
                 for (let i = 0; i < 16; ++i) {
-                    const index=15-i;
-                    const a=pixeloffset1 >> index;
-                    if((a & 1)==0) 
+                    const index = 15 - i;
+                    const a = pixeloffset1 >> index;
+                    if ((a & 1) == 0)
                         this.setPixelRGB(i >> 0, 0);
-                    else if(this.ismulticolor)
+                    else if (this.ismulticolor)
                         this.setPixelRGB(i >> 0, this.nextNum() >> 0);
                     else
                         this.setPixelRGB(i >> 0, rgb >> 0);
                 }
                 for (let i = 16; i < 25; ++i) {
-                    const index=31-i;
-                    const a=pixeloffset2 >> index;
-                    if((a & 1)==0)
+                    const index = 31 - i;
+                    const a = pixeloffset2 >> index;
+                    if ((a & 1) == 0)
                         this.setPixelRGB(i >> 0, 0);
-                    else if(this.ismulticolor)
+                    else if (this.ismulticolor)
                         this.setPixelRGB(i >> 0, this.nextNum() >> 0);
-                    else 
+                    else
                         this.setPixelRGB(i >> 0, rgb >> 0);
                 }
                 this.show();
                 return;
             }
             for (let chindex = 0; chindex < input.length; chindex++) {
-                let ch: number = input.charCodeAt(chindex)-32;
-                let pixeloffset1=FONTS[ch][0];
-                let pixeloffset2=FONTS[ch][1];
+                let ch: number = input.charCodeAt(chindex) - 32;
+                let pixeloffset1 = FONTS[ch][0];
+                let pixeloffset2 = FONTS[ch][1];
                 for (let i = 0; i < 16; ++i) {
-                    const index=15-i;
-                    const a=pixeloffset1 >> index;
-                    if((a & 1)==0)
-                    {
+                    const index = 15 - i;
+                    const a = pixeloffset1 >> index;
+                    if ((a & 1) == 0) {
                         this.setPixelRGB(i >> 0, 0);
                     }
-                    else if(this.ismulticolor)
-                    {
+                    else if (this.ismulticolor) {
                         this.setPixelRGB(i >> 0, this.nextNum() >> 0);
                     }
-                    else
-                    {
+                    else {
                         this.setPixelRGB(i >> 0, rgb >> 0);
                     }
                 }
                 for (let i = 16; i < 25; ++i) {
-                    const index=31-i;
-                    const a=pixeloffset2 >> index;
-                    if((a & 1)==0)
-                    {
+                    const index = 31 - i;
+                    const a = pixeloffset2 >> index;
+                    if ((a & 1) == 0) {
                         this.setPixelRGB(i >> 0, 0);
                     }
-                    else if(this.ismulticolor)
-                    {
+                    else if (this.ismulticolor) {
                         this.setPixelRGB(i >> 0, this.nextNum() >> 0);
                     }
-                    else
-                    {
+                    else {
                         this.setPixelRGB(i >> 0, rgb >> 0);
                     }
                 }
@@ -508,7 +501,7 @@ namespace colorbit {
                 basic.pause(1000);
             }
         }
-        
+
         /**
          * Show ColorBit Scroll string with a given color (range 0-255 for r, g, b). 
          * @param input LED string showing
@@ -520,14 +513,14 @@ namespace colorbit {
         //% parts="colorbit"
         showScrollStringColor(input: string, rgb: number): void {
             if (input == '') return;
-            input = ' '+ input + ' ';
-            for (let chindex = 0; chindex < input.length-1; chindex++) {
-                let ch: number = input.charCodeAt(chindex)-32;
-                let ch2: number = input.charCodeAt(chindex+1)-32;
-                let pixeloffset1=FONTS[ch][0];
-                let pixeloffset2=FONTS[ch][1]; 
-                let pixeloffset3=FONTS[ch2][0];
-                let pixeloffset4=FONTS[ch2][1];         
+            input = ' ' + input + ' ';
+            for (let chindex = 0; chindex < input.length - 1; chindex++) {
+                let ch: number = input.charCodeAt(chindex) - 32;
+                let ch2: number = input.charCodeAt(chindex + 1) - 32;
+                let pixeloffset1 = FONTS[ch][0];
+                let pixeloffset2 = FONTS[ch][1];
+                let pixeloffset3 = FONTS[ch2][0];
+                let pixeloffset4 = FONTS[ch2][1];
                 let a: number[] = [0, 0, 0, 0, 0];
                 let b: number[] = [0, 0, 0, 0, 0];
                 //I port this from stc51 8bit CPU, so I need to add 0xffff for 32bit ARM CPU here, might use 32bit in the future for pxt.
@@ -537,25 +530,20 @@ namespace colorbit {
                 for (let j = 0; j < 5; j++) {
                     for (let k = 0; k < 5; k++)
                         c[k] = (a[k] << j) | ((b[k] >> (5 - j)))
-                    
+
                     //display fonts
                     let i = 0;
-                    for (let row = 0; row < 5; row++)
-                    {
-                        for (let yiweiindex = 0; yiweiindex < 5; yiweiindex++)
-                        {
-                            const index=4-yiweiindex;
-                            const currentrowbit=c[row] >> index;
-                            if((currentrowbit & 1)==0)
-                            {
+                    for (let row = 0; row < 5; row++) {
+                        for (let yiweiindex = 0; yiweiindex < 5; yiweiindex++) {
+                            const index = 4 - yiweiindex;
+                            const currentrowbit = c[row] >> index;
+                            if ((currentrowbit & 1) == 0) {
                                 this.setPixelRGB(i >> 0, 0);
                             }
-                            else if(this.ismulticolor)
-                            {
+                            else if (this.ismulticolor) {
                                 this.setPixelRGB(i >> 0, this.nextNum() >> 0);
                             }
-                            else
-                            {
+                            else {
                                 this.setPixelRGB(i >> 0, rgb >> 0);
                             }
                             i++;
@@ -566,38 +554,35 @@ namespace colorbit {
                 }
             }
         }
-        
-         /**
-         * Show ColorBit number with a given color (range 0-255 for r, g, b). 
-         * @param input LED number showing
-         * @param rgb RGB color of the LED
-         */
+
+        /**
+        * Show ColorBit number with a given color (range 0-255 for r, g, b). 
+        * @param input LED number showing
+        * @param rgb RGB color of the LED
+        */
         //% blockId="colorbit_51bit_show_int_color" block="%colorbit_51bit|show ColorBit number %input|with %rgb=colorbit_colors" 
         //% blockGap=8
         //% weight=100
         //% parts="colorbit"
         showIntColor(input: number, rgb: number): void {
-            let a: number[] = [0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0];
-            let indexl=0;
-            if(input==0)
-            {
+            let a: number[] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            let indexl = 0;
+            if (input == 0) {
                 this.showStringColor("0", rgb);
                 return;
             }
-            while(input>=1)
-            {
-                a[indexl++] = input%10;
-                input=Math.trunc(input/10);
+            while (input >= 1) {
+                a[indexl++] = input % 10;
+                input = Math.trunc(input / 10);
             }
-            
+
             //reverse each bit
-            while(--indexl>=0) 
-            {
-                let y=a[indexl];
-                if((y>=0) && (y<=9)) this.showStringColor(''+y, rgb);
+            while (--indexl >= 0) {
+                let y = a[indexl];
+                if ((y >= 0) && (y <= 9)) this.showStringColor('' + y, rgb);
             }
         }
-        
+
         /**
          * Show ColorBit Scroll int with a given color (range 0-255 for r, g, b). 
          * @param input LED int showing
@@ -608,25 +593,22 @@ namespace colorbit {
         //% weight=99
         //% parts="colorbit"
         showScrollIntColor(input: number, rgb: number): void {
-            let a: number[] = [0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0];
+            let a: number[] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
             let str: string = "";
-            let indexl=0;
-            if(input==0)
-            {
+            let indexl = 0;
+            if (input == 0) {
                 this.showStringColor("0", rgb);
                 return;
             }
-            while(input>=1)
-            {
-                a[indexl++] = input%10;
-                input=Math.trunc(input/10);
+            while (input >= 1) {
+                a[indexl++] = input % 10;
+                input = Math.trunc(input / 10);
             }
-            
+
             //reverse each bit
-            while(--indexl>=0) 
-            {
-                let y=a[indexl];
-                if((y>=0) && (y<=9)) str = str+ y;
+            while (--indexl >= 0) {
+                let y = a[indexl];
+                if ((y >= 0) && (y <= 9)) str = str + y;
             }
             this.showScrollStringColor(str, rgb);
         }
@@ -650,7 +632,7 @@ namespace colorbit {
             this.setPixelColor(i, rgb);
             this.show();
         }
-        
+
         /**
          * Shows a rainbow pattern on all LEDs. 
          * @param startHue the start hue value for the rainbow, eg: 1
@@ -801,7 +783,7 @@ namespace colorbit {
             let i = x + y * this._matrixWidth;
             this.setPixelColor(i, rgb);
         }
-        
+
         /**
          * For NeoPixels with RGB+W LEDs, set the white LED brightness. This only works for RGB+W NeoPixels.
          * @param pixeloffset position of the LED in the strip
@@ -811,7 +793,7 @@ namespace colorbit {
         //% blockGap=8
         //% weight=80
         //% parts="colorbit" advanced=true
-        setPixelWhiteLED(pixeloffset: number, white: number): void {            
+        setPixelWhiteLED(pixeloffset: number, white: number): void {
             if (this._mode === BitColorMode.RGBW) {
                 this.setPixelW(pixeloffset >> 0, white >> 0);
             }
@@ -909,7 +891,7 @@ namespace colorbit {
             strip._length = Math.clamp(0, this._length - (strip.start - this.start), length);
             strip._matrixWidth = 0;
             strip._mode = this._mode;
-            strip.ismulticolor=this.ismulticolor;
+            strip.ismulticolor = this.ismulticolor;
             return strip;
         }
 
@@ -1064,7 +1046,7 @@ namespace colorbit {
     //% weight=90 blockGap=8
     //% parts="colorbit"
     //% trackArgs=0,2
-    //% blockSetVariable=colorbit_51bit
+    //% blockSetVariable=colorbit //_51bit
     //% advanced=true
     export function create(pin: DigitalPin = DigitalPin.P0, numleds: number = 25, mode: BitColorMode): Strip {
         let strip = new Strip();
@@ -1076,11 +1058,11 @@ namespace colorbit {
         strip._matrixWidth = 0;
         strip.setBrightness(16);
         strip.setPin(pin);
-        strip.ismulticolor=false;
-        strip.lastcolor=BitColors.Red;
+        strip.ismulticolor = false;
+        strip.lastcolor = BitColors.Red;
         return strip;
     }
-    
+
     /**
      * Init colorbit.
      * @param pin the pin where the colorbit is connected.
@@ -1100,8 +1082,8 @@ namespace colorbit {
         strip._matrixWidth = 0;
         strip.setBrightness(16);
         strip.setPin(pin);
-        strip.ismulticolor=false;
-        strip.lastcolor=BitColors.Red;
+        strip.ismulticolor = false;
+        strip.lastcolor = BitColors.Red;
         return strip;
     }
 
@@ -1156,7 +1138,7 @@ namespace colorbit {
         h = Math.round(h);
         s = Math.round(s);
         l = Math.round(l);
-        
+
         h = h % 360;
         s = Math.clamp(0, 99, s);
         l = Math.clamp(0, 99, l);
