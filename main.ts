@@ -1046,7 +1046,7 @@ namespace colorbit {
     //% weight=90 blockGap=8
     //% parts="colorbit"
     //% trackArgs=0,2
-    //% blockSetVariable=colorbit //_51bit
+    //% blockSetVariable=colorbitneo
     //% advanced=true
     export function create(pin: DigitalPin = DigitalPin.P0, numleds: number = 25, mode: BitColorMode): Strip {
         let strip = new Strip();
@@ -1071,7 +1071,7 @@ namespace colorbit {
     //% weight=101 blockGap=8
     //% parts="colorbit"
     //% trackArgs=0,2
-    //% blockSetVariable=colorbit_51bit
+    //% blockSetVariable=colorbit //_51bit
     export function initColorBit(pin: DigitalPin = DigitalPin.P0, mode: BitColorMode): Strip {
         let strip = new Strip();
         let stride = mode === BitColorMode.RGBW ? 4 : 3;
