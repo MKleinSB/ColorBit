@@ -1,6 +1,7 @@
 /**
  * Well known colors for a NeoPixel strip
  */
+
 enum BitColors {
     //% block=red
     Red = 0xFF0000,

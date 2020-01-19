@@ -11,8 +11,8 @@
         "README.md",
         "main.ts",
         "coloricons.jres",
-        "_locales/zh/colorbit-strings.json",
-        "_locales/de/colorbit-strings.json"    
+        "_locales/de/colorbit-strings.json"
     ],
-    "public": true
+    "public": true,
+    "preferredEditor": "tsprj"
 }
