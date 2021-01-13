@@ -51,6 +51,8 @@ Use ``||showScrollStringColor||`` to show scroll colorful string in ColorBit.
 ## Supported targets
 
 * for PXT/microbit
+* for PXT/calliopemini
+
 
 ## License
 
