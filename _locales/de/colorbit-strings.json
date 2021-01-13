@@ -83,6 +83,7 @@
     "colorbit.Strip.shift|block": "%colorbit|verschiebe Neopixel um %offset",
     "colorbit.Strip.rotate|block": "%colorbit|rotiere Neopixel um %offset",
     "colorbit.Strip.power|block": "%colorbit|Stromverbrauch (mA)",
+    "colorbit.Strip.plotNeoBarGraph|block": "%colorbit|zeichne Säulendiagramm von %value bis %high",
     "colorbit.initColorBit|block": "ColorBit LEDs an Pin %pin| und Modus %mode",
     "colorbit.hsl|block": "HSL-Farbe: Farbwert %h|Sättigung %s|Helligkeit %l",
     "colorbit.setMatrixWidth|block": "%colorbitmatrix|setze Matrixbreite auf %width",

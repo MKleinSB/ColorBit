@@ -24,6 +24,8 @@ enum BitColors {
     //% block=black
     Black = 0x000000
 }
+let NeoBarGraphHigh = 0;
+let NeoBarGraphHighLast = 0;
 
 // Images from file microbitconstimage.cpp https://github.com/bbcmicrobit/micropython
 
@@ -288,6 +290,8 @@ namespace colorbit {
         [0xc218, 0x8c00], //125: }
         [0x18, 0x3000]    //126: ~
     ];
+    let ccolors = [0xFF7F00,0xFFFE00,0x7FFF00,0x00FF00,0x00FF7F,
+               0x00FFFE, 0x007FFF,0x0000FF,0x7F00FF,0xFE00FF,0xFF007F]
 
     /**
      * A NeoPixel strip
@@ -339,6 +343,48 @@ namespace colorbit {
             return this.lastcolor;
         }
 
+
+  /**
+     * Displays a vertical bar graph based on the `value` and `high` value.
+     * If `high` is 0, the chart gets adjusted automatically.
+     * @param value current value to plot
+     * @param high maximum value. If 0, maximum value adjusted automatically, eg: 0
+     */
+    //% blockId=plotNeoBarGraph block="%colorbit|plot bar graph of %value up to %high" icon="\uf080" blockExternalInputs=true
+   
+    plotNeoBarGraph(value: number, high: number): void {
+        const now = input.runningTime();
+        value = Math.abs(value);
+
+        // auto-scale "high" is not provided
+        if (high > 0) {
+            NeoBarGraphHigh = high;
+        } else if (value > NeoBarGraphHigh || now - NeoBarGraphHighLast > 10000) {
+            NeoBarGraphHigh = value;
+            NeoBarGraphHighLast = now;
+        }
+
+        // normalize lack of data to 0..1
+        if (NeoBarGraphHigh < 16 * Number.EPSILON)
+            NeoBarGraphHigh = 1;
+
+        // normalize value to 0..1
+        const v = value / NeoBarGraphHigh;
+        const dv = 1 / 16;
+        let k = 0;
+        for (let y = 4; y >= 0; --y) {
+            for (let x = 0; x < 3; ++x) {
+                if (k > v) {
+                    this.drawColorBit(2 - x, y, BitColors.Black)//unplot(2 - x, y);
+                    this.drawColorBit(2 + x, y, BitColors.Black)//unplot(2 + x, y);
+                } else {
+                    this.drawColorBit(2 - x, y,ccolors[y])//plot(2 - x, y);
+                    this.drawColorBit(2 + x, y,ccolors[y])//plot(2 + x, y);
+                }
+                k += dv;
+            }
+        }
+    }
         /**
          * Set multiple color. 
          * @param yes is multiple color for each light?
@@ -860,7 +906,6 @@ namespace colorbit {
                 const br = k > mid
                     ? Math.idiv(255 * (this._length - 1 - k) * (this._length - 1 - k), (mid * mid))
                     : Math.idiv(255 * k * k, (mid * mid));
-                serial.writeLine(k + ":" + br);
                 const r = (buf[ledoffset + 0] * br) >> 8; buf[ledoffset + 0] = r;
                 const g = (buf[ledoffset + 1] * br) >> 8; buf[ledoffset + 1] = g;
                 const b = (buf[ledoffset + 2] * br) >> 8; buf[ledoffset + 2] = b;
